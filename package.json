@@ -8,5 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Wes",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.1.0",
+    "jquery": "^3.5.1"
+  }
 }
