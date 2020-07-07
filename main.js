@@ -1,6 +1,9 @@
-const {ipcMain,app,BrowserWindow}=require('electron');
+const {ipcMain,app,BrowserWindow,Menu}=require('electron');
 
 let win;
+
+// remove/disable application menu
+Menu.setApplicationMenu(false);
 
 function createMainWindow(){
 
@@ -8,9 +11,9 @@ function createMainWindow(){
 
         width:800,
 
-        height:600,
+        height:400,
 
-        frame:false,
+        // frame:false,
 
         webPreferences:{
             nodeIntegration:true
