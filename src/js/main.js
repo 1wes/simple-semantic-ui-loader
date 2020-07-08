@@ -8,7 +8,8 @@ $(document).ready((e)=>{
         $('.contSeg').slideDown('slow');
     },5000);
 
+    // removing the dimmer
+    $('.appLoader').fadeOut(5000);
+
 });
-
-
 
