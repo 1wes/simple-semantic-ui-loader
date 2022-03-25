@@ -10,7 +10,7 @@
   "author": "Wes",
   "license": "ISC",
   "dependencies": {
-    "electron": "^9.1.0",
+    "electron": "^13.6.6",
     "jquery": "^3.5.1",
     "lodash.update": "^4.10.2"
   }
